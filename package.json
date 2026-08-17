@@ -1,0 +1,20 @@
+{
+  "name": "@weft/protocol",
+  "version": "1.0.0",
+  "description": "Institutional On-Chain Index & Structured Products Engine on Base",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "test": "jest",
+    "test:contracts": "forge test",
+    "simulate:stress": "tsx scripts/stress_test.ts",
+    "simulate:liquidity": "tsx scripts/liquidity_benchmark.ts"
+  },
+  "dependencies": {
+    "viem": "^2.37.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
